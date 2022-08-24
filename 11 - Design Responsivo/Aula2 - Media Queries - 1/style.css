@@ -1,0 +1,37 @@
+
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/* Do 0 até o 400 vai aplicar isso aqui \/ */
+
+@media (max-width:400px) {
+    body{
+        background: red;
+        color: blue;
+    }
+
+    p{
+        font-size: 40px;
+    }
+}
+
+/* A partir do 401 até o 600 vai aplicar essa regra \/ */
+
+@media (min-width:400px) and (max-width:600px) {
+    body{
+        background: green;
+        
+    }
+}
+
+/* A partir do 601 até o 800 vai aplicar essa regra \/ */
+
+@media (min-width:601px) and (max-width:800px) {
+    body{
+        background: blue;
+        
+    }
+}
